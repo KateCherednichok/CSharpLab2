@@ -9,7 +9,7 @@ namespace Lab2.Exceptions
     class InvalidEmailException : Exception
     {
         public InvalidEmailException(String email)
-        : base($"Некоректна електорнна пошта: {email}") { }
+        : base($"Некоректна електронна пошта: {email}") { }
         public InvalidEmailException(String message, String email)
         : base($"{message}: {email}") { }
 
