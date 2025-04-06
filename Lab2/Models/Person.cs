@@ -1,7 +1,9 @@
-﻿using System;
+﻿using Lab2.Exceptions;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace Lab2.Models
@@ -18,7 +20,8 @@ namespace Lab2.Models
         private readonly string _sunSign;
         private readonly string _chineseSign;
         private readonly bool _isBirthday;
-
+        private const string EmailPattern = "^[\\w-\\.]+@([\\w-]+\\.)+[\\w-]{2,4}$";
+        private const int MaxAge = 135;
         #endregion
 
         #region Properties
@@ -71,6 +74,15 @@ namespace Lab2.Models
 
         public Person(string firstName, string lastName, string email, DateTime birthDate)
         {
+            if (birthDate > DateTime.Today)
+                throw new InvalidDateInFutureException(birthDate);
+
+            if (ZodiacUtils.CalculateAge(birthDate) > MaxAge)
+                throw new InvalidDateInPastException(birthDate);
+
+            if (!IsValidEmail(email))
+                throw new InvalidEmailException(email);
+
             _firstName = firstName;
             _lastName = lastName;
             _email = email;
@@ -87,5 +99,9 @@ namespace Lab2.Models
         public Person(string firstName, string lastName, DateTime birthDate)
             : this(firstName, lastName, string.Empty, birthDate) { }
 
+        private bool IsValidEmail(string email)
+        {
+            return Regex.IsMatch(email, EmailPattern);
+        }
     }
 }

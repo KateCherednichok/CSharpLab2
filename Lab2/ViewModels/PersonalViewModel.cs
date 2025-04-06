@@ -2,6 +2,7 @@
 using System.ComponentModel;
 using System.Windows;
 using CommunityToolkit.Mvvm.Input;
+using Lab2.Exceptions;
 
 namespace Lab2.ViewModels
 {
@@ -9,7 +10,6 @@ namespace Lab2.ViewModels
     {
         #region Fields
         private const int MaxAge = 135;
-
         private string _firstNameInput;
         private string _lastNameInput;
         private string _emailInput;
@@ -182,58 +182,35 @@ namespace Lab2.ViewModels
 
             IsEnabled = false;
             UpdateButtonState();
-
-            if (!IsValidDate(BirthdayDateInput))
+            try
             {
-                FirstName = "";
-                LastName = "";
-                Email = "";
-                BirthdayDate = "";
-                IsAdult = "";
-                SunSign = "";
-                ChineseSign = "";
-                IsBirthday = "";
-                ShowInvalidDateMessage();
-                IsEnabled = true;
-                UpdateButtonState();
 
-                return;
-            }
-
-            await Task.Run(() =>
-            {
-                var person = new Person(FirstNameInput, LastNameInput, EmailInput, BirthdayDateInput);
-
-                if (person.IsBirthday)
+                await Task.Run(() =>
                 {
+                    var person = new Person(FirstNameInput, LastNameInput, EmailInput, BirthdayDateInput);
 
-                    MessageBox.Show("Вітаємо з Днем Народження!");
+                    if (person.IsBirthday)
+                    {
 
-                }
-                FirstName = person.FirstName;
-                LastName = person.LastName; 
-                Email = person.Email; 
-                BirthdayDate = person.BirthDate.ToString("dd/MM/yyyy");
-                IsAdult = person.IsAdult ? "Так" : "Ні";
-                SunSign = person.SunSign;
-                ChineseSign = person.ChineseSign;
-                IsBirthday = person.IsBirthday ? "Так" : "Ні";          
-            });
+                        MessageBox.Show("Вітаємо з Днем Народження!");
 
+                    }
+                    FirstName = person.FirstName;
+                    LastName = person.LastName;
+                    Email = person.Email;
+                    BirthdayDate = person.BirthDate.ToString("dd/MM/yyyy");
+                    IsAdult = person.IsAdult ? "Так" : "Ні";
+                    SunSign = person.SunSign;
+                    ChineseSign = person.ChineseSign;
+                    IsBirthday = person.IsBirthday ? "Так" : "Ні";
+                });
+            }
+            catch (Exception ex) when (ex is InvalidDateInFutureException || ex is InvalidDateInPastException || ex is InvalidEmailException)
+            {
+                OnExeption(ex.Message);
+            }
             IsEnabled = true; 
             UpdateButtonState();
-        }
-
-        private void ShowInvalidDateMessage()
-        {
-            if (BirthdayDateInput > DateTime.Today)
-            {
-                MessageBox.Show("Не коректна дата народження! Ви з майбутнього!");
-            }
-            else
-            {
-                MessageBox.Show($"Не коректна дата народження! Ви не можете бути старшими за {MaxAge} років!");
-            }
         }
 
         private void UpdateButtonState()
@@ -249,6 +226,19 @@ namespace Lab2.ViewModels
 
         private void OnPropertyChanged(string propertyName) =>
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+
+        private void OnExeption(String message)
+        {
+            FirstName = "";
+            LastName = "";
+            Email = "";
+            BirthdayDate = "";
+            IsAdult = "";
+            SunSign = "";
+            ChineseSign = "";
+            IsBirthday = "";
+            MessageBox.Show(message);
+        }
     }
 
 }
