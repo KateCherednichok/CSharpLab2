@@ -3,40 +3,60 @@
   "WorkspaceRootPath": "D:\\UKMA\\Lessons\\C#\\Lab2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{993AD124-FF29-441F-BB9E-C05061BCAE7F}|Lab2\\Lab2.csproj|d:\\ukma\\lessons\\c#\\lab2\\lab2\\exceptions\\invalidemailexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{993AD124-FF29-441F-BB9E-C05061BCAE7F}|Lab2\\Lab2.csproj|solutionrelative:lab2\\exceptions\\invalidemailexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{993AD124-FF29-441F-BB9E-C05061BCAE7F}|Lab2\\Lab2.csproj|d:\\ukma\\lessons\\c#\\lab2\\lab2\\exceptions\\invaliddateinfutureexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{993AD124-FF29-441F-BB9E-C05061BCAE7F}|Lab2\\Lab2.csproj|solutionrelative:lab2\\exceptions\\invaliddateinfutureexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{993AD124-FF29-441F-BB9E-C05061BCAE7F}|Lab2\\Lab2.csproj|d:\\ukma\\lessons\\c#\\lab2\\lab2\\exceptions\\invaliddateinpastexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{993AD124-FF29-441F-BB9E-C05061BCAE7F}|Lab2\\Lab2.csproj|solutionrelative:lab2\\exceptions\\invaliddateinpastexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{993AD124-FF29-441F-BB9E-C05061BCAE7F}|Lab2\\Lab2.csproj|d:\\ukma\\lessons\\c#\\lab2\\lab2\\viewmodels\\personalviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{993AD124-FF29-441F-BB9E-C05061BCAE7F}|Lab2\\Lab2.csproj|solutionrelative:lab2\\viewmodels\\personalviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{993AD124-FF29-441F-BB9E-C05061BCAE7F}|Lab2\\Lab2.csproj|d:\\ukma\\lessons\\c#\\lab2\\lab2\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{993AD124-FF29-441F-BB9E-C05061BCAE7F}|Lab2\\Lab2.csproj|solutionrelative:lab2\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{993AD124-FF29-441F-BB9E-C05061BCAE7F}|Lab2\\Lab2.csproj|d:\\ukma\\lessons\\c#\\lab2\\lab2\\viewmodels\\personviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{993AD124-FF29-441F-BB9E-C05061BCAE7F}|Lab2\\Lab2.csproj|solutionrelative:lab2\\viewmodels\\personviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{993AD124-FF29-441F-BB9E-C05061BCAE7F}|Lab2\\Lab2.csproj|d:\\ukma\\lessons\\c#\\lab2\\lab2\\views\\allpersonsview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{993AD124-FF29-441F-BB9E-C05061BCAE7F}|Lab2\\Lab2.csproj|solutionrelative:lab2\\views\\allpersonsview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{993AD124-FF29-441F-BB9E-C05061BCAE7F}|Lab2\\Lab2.csproj|d:\\ukma\\lessons\\c#\\lab2\\lab2\\viewmodels\\allpersonsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{993AD124-FF29-441F-BB9E-C05061BCAE7F}|Lab2\\Lab2.csproj|solutionrelative:lab2\\viewmodels\\allpersonsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{993AD124-FF29-441F-BB9E-C05061BCAE7F}|Lab2\\Lab2.csproj|d:\\ukma\\lessons\\c#\\lab2\\lab2\\viewmodels\\personbindingviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{993AD124-FF29-441F-BB9E-C05061BCAE7F}|Lab2\\Lab2.csproj|solutionrelative:lab2\\viewmodels\\personbindingviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{993AD124-FF29-441F-BB9E-C05061BCAE7F}|Lab2\\Lab2.csproj|d:\\ukma\\lessons\\c#\\lab2\\lab2\\models\\personrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{993AD124-FF29-441F-BB9E-C05061BCAE7F}|Lab2\\Lab2.csproj|solutionrelative:lab2\\models\\personrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{993AD124-FF29-441F-BB9E-C05061BCAE7F}|Lab2\\Lab2.csproj|d:\\ukma\\lessons\\c#\\lab2\\lab2\\views\\allpersonsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{993AD124-FF29-441F-BB9E-C05061BCAE7F}|Lab2\\Lab2.csproj|solutionrelative:lab2\\views\\allpersonsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{993AD124-FF29-441F-BB9E-C05061BCAE7F}|Lab2\\Lab2.csproj|d:\\ukma\\lessons\\c#\\lab2\\lab2\\views\\personview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{993AD124-FF29-441F-BB9E-C05061BCAE7F}|Lab2\\Lab2.csproj|solutionrelative:lab2\\views\\personview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{993AD124-FF29-441F-BB9E-C05061BCAE7F}|Lab2\\Lab2.csproj|d:\\ukma\\lessons\\c#\\lab2\\lab2\\views\\personview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{993AD124-FF29-441F-BB9E-C05061BCAE7F}|Lab2\\Lab2.csproj|solutionrelative:lab2\\views\\personview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{993AD124-FF29-441F-BB9E-C05061BCAE7F}|Lab2\\Lab2.csproj|d:\\ukma\\lessons\\c#\\lab2\\lab2\\controls\\textboxwithcaption.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{993AD124-FF29-441F-BB9E-C05061BCAE7F}|Lab2\\Lab2.csproj|solutionrelative:lab2\\controls\\textboxwithcaption.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{993AD124-FF29-441F-BB9E-C05061BCAE7F}|Lab2\\Lab2.csproj|d:\\ukma\\lessons\\c#\\lab2\\lab2\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{993AD124-FF29-441F-BB9E-C05061BCAE7F}|Lab2\\Lab2.csproj|solutionrelative:lab2\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{993AD124-FF29-441F-BB9E-C05061BCAE7F}|Lab2\\Lab2.csproj|d:\\ukma\\lessons\\c#\\lab2\\lab2\\models\\zodiacutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{993AD124-FF29-441F-BB9E-C05061BCAE7F}|Lab2\\Lab2.csproj|solutionrelative:lab2\\models\\zodiacutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{993AD124-FF29-441F-BB9E-C05061BCAE7F}|Lab2\\Lab2.csproj|d:\\ukma\\lessons\\c#\\lab2\\lab2\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{993AD124-FF29-441F-BB9E-C05061BCAE7F}|Lab2\\Lab2.csproj|solutionrelative:lab2\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{993AD124-FF29-441F-BB9E-C05061BCAE7F}|Lab2\\Lab2.csproj|d:\\ukma\\lessons\\c#\\lab2\\lab2\\views\\personview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{993AD124-FF29-441F-BB9E-C05061BCAE7F}|Lab2\\Lab2.csproj|solutionrelative:lab2\\views\\personview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{993AD124-FF29-441F-BB9E-C05061BCAE7F}|Lab2\\Lab2.csproj|d:\\ukma\\lessons\\c#\\lab2\\lab2\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{993AD124-FF29-441F-BB9E-C05061BCAE7F}|Lab2\\Lab2.csproj|solutionrelative:lab2\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{993AD124-FF29-441F-BB9E-C05061BCAE7F}|Lab2\\Lab2.csproj|d:\\ukma\\lessons\\c#\\lab2\\lab2\\personwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{993AD124-FF29-441F-BB9E-C05061BCAE7F}|Lab2\\Lab2.csproj|solutionrelative:lab2\\personwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{993AD124-FF29-441F-BB9E-C05061BCAE7F}|Lab2\\Lab2.csproj|d:\\ukma\\lessons\\c#\\lab2\\lab2\\personwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{993AD124-FF29-441F-BB9E-C05061BCAE7F}|Lab2\\Lab2.csproj|solutionrelative:lab2\\personwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -51,111 +71,179 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Person.cs",
-              "DocumentMoniker": "D:\\UKMA\\Lessons\\C#\\Lab2\\Lab2\\Models\\Person.cs",
-              "RelativeDocumentMoniker": "Lab2\\Models\\Person.cs",
-              "ToolTip": "D:\\UKMA\\Lessons\\C#\\Lab2\\Lab2\\Models\\Person.cs",
-              "RelativeToolTip": "Lab2\\Models\\Person.cs",
-              "ViewState": "AgIAAGsAAAAAAAAAAAAAAA8AAAAeAAAAAAAAAA==",
+              "Title": "PersonBindingViewModel.cs",
+              "DocumentMoniker": "D:\\UKMA\\Lessons\\C#\\Lab2\\Lab2\\ViewModels\\PersonBindingViewModel.cs",
+              "RelativeDocumentMoniker": "Lab2\\ViewModels\\PersonBindingViewModel.cs",
+              "ToolTip": "D:\\UKMA\\Lessons\\C#\\Lab2\\Lab2\\ViewModels\\PersonBindingViewModel.cs",
+              "RelativeToolTip": "Lab2\\ViewModels\\PersonBindingViewModel.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA5wAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T12:20:27.304Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PersonalViewModel.cs",
-              "DocumentMoniker": "D:\\UKMA\\Lessons\\C#\\Lab2\\Lab2\\ViewModels\\PersonalViewModel.cs",
-              "RelativeDocumentMoniker": "Lab2\\ViewModels\\PersonalViewModel.cs",
-              "ToolTip": "D:\\UKMA\\Lessons\\C#\\Lab2\\Lab2\\ViewModels\\PersonalViewModel.cs",
-              "RelativeToolTip": "Lab2\\ViewModels\\PersonalViewModel.cs",
-              "ViewState": "AgIAAMEAAAAAAAAAAAAQwM4AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T08:32:23.837Z"
+              "WhenOpened": "2025-04-13T09:28:57.035Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "InvalidDateInFutureException.cs",
-              "DocumentMoniker": "D:\\UKMA\\Lessons\\C#\\Lab2\\Lab2\\Exceptions\\InvalidDateInFutureException.cs",
-              "RelativeDocumentMoniker": "Lab2\\Exceptions\\InvalidDateInFutureException.cs",
-              "ToolTip": "D:\\UKMA\\Lessons\\C#\\Lab2\\Lab2\\Exceptions\\InvalidDateInFutureException.cs",
-              "RelativeToolTip": "Lab2\\Exceptions\\InvalidDateInFutureException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Title": "PersonViewModel.cs",
+              "DocumentMoniker": "D:\\UKMA\\Lessons\\C#\\Lab2\\Lab2\\ViewModels\\PersonViewModel.cs",
+              "RelativeDocumentMoniker": "Lab2\\ViewModels\\PersonViewModel.cs",
+              "ToolTip": "D:\\UKMA\\Lessons\\C#\\Lab2\\Lab2\\ViewModels\\PersonViewModel.cs",
+              "RelativeToolTip": "Lab2\\ViewModels\\PersonViewModel.cs",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAYwHcAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T05:17:44.107Z",
+              "WhenOpened": "2025-04-13T09:18:22.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AllPersonsViewModel.cs",
+              "DocumentMoniker": "D:\\UKMA\\Lessons\\C#\\Lab2\\Lab2\\ViewModels\\AllPersonsViewModel.cs",
+              "RelativeDocumentMoniker": "Lab2\\ViewModels\\AllPersonsViewModel.cs",
+              "ToolTip": "D:\\UKMA\\Lessons\\C#\\Lab2\\Lab2\\ViewModels\\AllPersonsViewModel.cs",
+              "RelativeToolTip": "Lab2\\ViewModels\\AllPersonsViewModel.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAwwA4AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T04:31:07.642Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "InvalidDateInPastException.cs",
-              "DocumentMoniker": "D:\\UKMA\\Lessons\\C#\\Lab2\\Lab2\\Exceptions\\InvalidDateInPastException.cs",
-              "RelativeDocumentMoniker": "Lab2\\Exceptions\\InvalidDateInPastException.cs",
-              "ToolTip": "D:\\UKMA\\Lessons\\C#\\Lab2\\Lab2\\Exceptions\\InvalidDateInPastException.cs",
-              "RelativeToolTip": "Lab2\\Exceptions\\InvalidDateInPastException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAYwAkAAAAFAAAAAAAAAA==",
+              "Title": "AllPersonsView.xaml.cs",
+              "DocumentMoniker": "D:\\UKMA\\Lessons\\C#\\Lab2\\Lab2\\Views\\AllPersonsView.xaml.cs",
+              "RelativeDocumentMoniker": "Lab2\\Views\\AllPersonsView.xaml.cs",
+              "ToolTip": "D:\\UKMA\\Lessons\\C#\\Lab2\\Lab2\\Views\\AllPersonsView.xaml.cs",
+              "RelativeToolTip": "Lab2\\Views\\AllPersonsView.xaml.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAcwBYAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T05:18:04.042Z"
+              "WhenOpened": "2025-04-13T04:28:35.474Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "InvalidEmailException.cs",
-              "DocumentMoniker": "D:\\UKMA\\Lessons\\C#\\Lab2\\Lab2\\Exceptions\\InvalidEmailException.cs",
-              "RelativeDocumentMoniker": "Lab2\\Exceptions\\InvalidEmailException.cs",
-              "ToolTip": "D:\\UKMA\\Lessons\\C#\\Lab2\\Lab2\\Exceptions\\InvalidEmailException.cs*",
-              "RelativeToolTip": "Lab2\\Exceptions\\InvalidEmailException.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAYwAsAAAAhAAAAAAAAAA==",
+              "Title": "Person.cs",
+              "DocumentMoniker": "D:\\UKMA\\Lessons\\C#\\Lab2\\Lab2\\Models\\Person.cs",
+              "RelativeDocumentMoniker": "Lab2\\Models\\Person.cs",
+              "ToolTip": "D:\\UKMA\\Lessons\\C#\\Lab2\\Lab2\\Models\\Person.cs",
+              "RelativeToolTip": "Lab2\\Models\\Person.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAA4wDsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T05:18:17.579Z",
+              "WhenOpened": "2025-04-13T08:34:01.048Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "PersonView.xaml.cs",
-              "DocumentMoniker": "D:\\UKMA\\Lessons\\C#\\Lab2\\Lab2\\Views\\PersonView.xaml.cs",
-              "RelativeDocumentMoniker": "Lab2\\Views\\PersonView.xaml.cs",
-              "ToolTip": "D:\\UKMA\\Lessons\\C#\\Lab2\\Lab2\\Views\\PersonView.xaml.cs",
-              "RelativeToolTip": "Lab2\\Views\\PersonView.xaml.cs",
+              "Title": "PersonRepository.cs",
+              "DocumentMoniker": "D:\\UKMA\\Lessons\\C#\\Lab2\\Lab2\\Models\\PersonRepository.cs",
+              "RelativeDocumentMoniker": "Lab2\\Models\\PersonRepository.cs",
+              "ToolTip": "D:\\UKMA\\Lessons\\C#\\Lab2\\Lab2\\Models\\PersonRepository.cs",
+              "RelativeToolTip": "Lab2\\Models\\PersonRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-30T07:58:55.071Z"
+              "WhenOpened": "2025-04-13T09:29:11.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AllPersonsView.xaml",
+              "DocumentMoniker": "D:\\UKMA\\Lessons\\C#\\Lab2\\Lab2\\Views\\AllPersonsView.xaml",
+              "RelativeDocumentMoniker": "Lab2\\Views\\AllPersonsView.xaml",
+              "ToolTip": "D:\\UKMA\\Lessons\\C#\\Lab2\\Lab2\\Views\\AllPersonsView.xaml",
+              "RelativeToolTip": "Lab2\\Views\\AllPersonsView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-13T06:36:27.082Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "ZodiacUtils.cs",
-              "DocumentMoniker": "D:\\UKMA\\Lessons\\C#\\Lab2\\Lab2\\Models\\ZodiacUtils.cs",
-              "RelativeDocumentMoniker": "Lab2\\Models\\ZodiacUtils.cs",
-              "ToolTip": "D:\\UKMA\\Lessons\\C#\\Lab2\\Lab2\\Models\\ZodiacUtils.cs",
-              "RelativeToolTip": "Lab2\\Models\\ZodiacUtils.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAiwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-30T07:59:00.479Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "PersonView.xaml",
               "DocumentMoniker": "D:\\UKMA\\Lessons\\C#\\Lab2\\Lab2\\Views\\PersonView.xaml",
               "RelativeDocumentMoniker": "Lab2\\Views\\PersonView.xaml",
               "ToolTip": "D:\\UKMA\\Lessons\\C#\\Lab2\\Lab2\\Views\\PersonView.xaml",
               "RelativeToolTip": "Lab2\\Views\\PersonView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-30T06:24:22.012Z"
+              "WhenOpened": "2025-04-13T09:28:08.984Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "TextBoxWithCaption.xaml.cs",
-              "DocumentMoniker": "D:\\UKMA\\Lessons\\C#\\Lab2\\Lab2\\Controls\\TextBoxWithCaption.xaml.cs",
-              "RelativeDocumentMoniker": "Lab2\\Controls\\TextBoxWithCaption.xaml.cs",
-              "ToolTip": "D:\\UKMA\\Lessons\\C#\\Lab2\\Lab2\\Controls\\TextBoxWithCaption.xaml.cs",
-              "RelativeToolTip": "Lab2\\Controls\\TextBoxWithCaption.xaml.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\UKMA\\Lessons\\C#\\Lab2\\Lab2\\App.xaml",
+              "RelativeDocumentMoniker": "Lab2\\App.xaml",
+              "ToolTip": "D:\\UKMA\\Lessons\\C#\\Lab2\\Lab2\\App.xaml",
+              "RelativeToolTip": "Lab2\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-13T09:28:05.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\UKMA\\Lessons\\C#\\Lab2\\Lab2\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Lab2\\MainWindow.xaml",
+              "ToolTip": "D:\\UKMA\\Lessons\\C#\\Lab2\\Lab2\\MainWindow.xaml",
+              "RelativeToolTip": "Lab2\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-13T09:28:02.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\UKMA\\Lessons\\C#\\Lab2\\Lab2\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Lab2\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\UKMA\\Lessons\\C#\\Lab2\\Lab2\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Lab2\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-30T07:59:09.957Z"
+              "WhenOpened": "2025-04-13T09:28:00.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PersonWindow.xaml.cs",
+              "DocumentMoniker": "D:\\UKMA\\Lessons\\C#\\Lab2\\Lab2\\PersonWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Lab2\\PersonWindow.xaml.cs",
+              "ToolTip": "D:\\UKMA\\Lessons\\C#\\Lab2\\Lab2\\PersonWindow.xaml.cs",
+              "RelativeToolTip": "Lab2\\PersonWindow.xaml.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T09:27:54.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PersonView.xaml.cs",
+              "DocumentMoniker": "D:\\UKMA\\Lessons\\C#\\Lab2\\Lab2\\Views\\PersonView.xaml.cs",
+              "RelativeDocumentMoniker": "Lab2\\Views\\PersonView.xaml.cs",
+              "ToolTip": "D:\\UKMA\\Lessons\\C#\\Lab2\\Lab2\\Views\\PersonView.xaml.cs",
+              "RelativeToolTip": "Lab2\\Views\\PersonView.xaml.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAswBEAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T07:04:25.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PersonWindow.xaml",
+              "DocumentMoniker": "D:\\UKMA\\Lessons\\C#\\Lab2\\Lab2\\PersonWindow.xaml",
+              "RelativeDocumentMoniker": "Lab2\\PersonWindow.xaml",
+              "ToolTip": "D:\\UKMA\\Lessons\\C#\\Lab2\\Lab2\\PersonWindow.xaml",
+              "RelativeToolTip": "Lab2\\PersonWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-13T07:21:24.824Z",
+              "EditorCaption": ""
             }
           ]
         }

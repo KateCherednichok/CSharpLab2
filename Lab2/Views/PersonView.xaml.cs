@@ -16,7 +16,6 @@ namespace Lab2.Views
         public PersonView()
         {
             InitializeComponent();
-            DataContext = _viewModel = new PersonViewModel();
         }
     }
 }

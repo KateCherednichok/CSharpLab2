@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.Json.Serialization;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
@@ -16,10 +17,10 @@ namespace Lab2.Models
         private string _email;
         private DateTime _birthDate;
 
-        private readonly bool _isAdult;
-        private readonly string _sunSign;
-        private readonly string _chineseSign;
-        private readonly bool _isBirthday;
+        private bool _isAdult;
+        private string _sunSign;
+        private string _chineseSign;
+        private bool _isBirthday;
         private const string EmailPattern = "^[\\w-\\.]+@([\\w-]+\\.)+[\\w-]{2,4}$";
         private const int MaxAge = 135;
         #endregion
@@ -47,7 +48,21 @@ namespace Lab2.Models
         public DateTime BirthDate
         {
             get { return _birthDate; }
-            set { _birthDate = value; }
+            set
+            {
+                if (value > DateTime.Today)
+                    throw new InvalidDateInFutureException(value);
+
+                if (ZodiacUtils.CalculateAge(value) > MaxAge)
+                    throw new InvalidDateInPastException(value);
+
+                _birthDate = value;
+
+                _isAdult = ZodiacUtils.CalculateAge(_birthDate) >= 18;
+                _sunSign = ZodiacUtils.GetWesternZodiacSign(_birthDate);
+                _chineseSign = ZodiacUtils.GetChineseZodiacSign(_birthDate);
+                _isBirthday = ZodiacUtils.IfItIsBirthdayToday(_birthDate);
+            }
         }
 
         public bool IsAdult
@@ -72,6 +87,7 @@ namespace Lab2.Models
 
         #endregion
 
+        [JsonConstructor]
         public Person(string firstName, string lastName, string email, DateTime birthDate)
         {
             if (birthDate > DateTime.Today)
